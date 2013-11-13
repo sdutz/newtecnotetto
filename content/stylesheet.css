@@ -5,26 +5,10 @@
 }
 
 body {
-   /* fallback/image non-cover color */
-   background-color: #1a82f7; 
 
    /* fallback image */
-   background-image: url(images/fallback-gradient.png); 
+   background-image: url(/gallery/tiles.png); 
 
-   /* Safari 4+, Chrome 1-9 */
-   background-image: -webkit-gradient(linear, 0% 0%, 0% 100%, from(#2F2727), to(#1a82f7));
-
-   /* Safari 5.1+, Mobile Safari, Chrome 10+ */
-   background-image: -webkit-linear-gradient(top, #2F2727, #1a82f7); 
-
-   /* Firefox 3.6+ */
-   background-image: -moz-linear-gradient(top, #2F2727, #1a82f7);
- 
-   /* IE 10+ */
-   background-image: -ms-linear-gradient(top, #2F2727, #1a82f7);
-
-   /* Opera 11.10+ */
-   background-image: -o-linear-gradient(top, #2F2727, #1a82f7);
 }
 }
 
@@ -57,10 +41,23 @@ a:hover {
   line-height: 40px;
 
   letter-spacing: -1px;
+
+  margin-left:6cm;
+}
+
+#main h2 {
+  margin-left:6cm;
+}
+
+#main iframe {
+
+  margin-left:3.5cm;
+
 }
 
 #main p {
   margin: 20px 0;
+  margin-left:6cm;
 
   font-size: 15px;
 
