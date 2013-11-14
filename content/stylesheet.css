@@ -37,16 +37,17 @@ a:hover {
 #main h1 {
   font-size: 40px;
   font-weight: normal;
-
+  text-align : center;
   line-height: 40px;
-
+  margin-left: 3cm;
   letter-spacing: -1px;
 
-  margin-left:6cm;
 }
 
 #main h2 {
-  margin-left:6cm;
+  
+  margin-left: 3cm;
+  text-align : center;
 }
 
 #main iframe {
@@ -57,7 +58,7 @@ a:hover {
 
 #main p {
   margin: 20px 0;
-  margin-left:6cm;
+  margin-left:4cm;
 
   font-size: 15px;
 
