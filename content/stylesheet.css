@@ -39,9 +39,11 @@ a:hover {
   font-weight: normal;
   text-align : center;
   line-height: 40px;
-  margin-left: 3cm;
   letter-spacing: -1px;
+}
 
+#main em {
+  text-align : center ;
 }
 
 #main h2 {

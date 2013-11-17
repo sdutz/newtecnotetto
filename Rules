@@ -22,6 +22,10 @@ compile '/Servizi/' do
     layout 'default'
 end
 
+compile '/' do
+    filter :erb
+    layout 'homepage'
+end
 
 compile '*' do
   if item.binary?
