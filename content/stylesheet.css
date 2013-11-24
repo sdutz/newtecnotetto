@@ -9,7 +9,6 @@
 body {
    background-image: url(/gallery/tiles.png); 
 }
-}
 
 a {
   text-decoration: none;
@@ -26,10 +25,8 @@ a:hover {
 
 #main {
   position: absolute;
-
-  top: 40px;
+  top: 200px;
   left: 280px;
-
   width: 500px;
 }
 
@@ -43,28 +40,11 @@ a:hover {
 
 #main h2 {
   
-  margin-left: 3cm;
   text-align : center;
-}
-
-#main iframe {
-  margin-left:3.5cm;
-
-}
-
-#main small {
-  margin-left:3.5cm;
-  text-align : center ;
-}
-
-#main em {
-  margin-left : 4cm ;
 }
 
 #main p {
   margin: 20px 0;
-  margin-left:4cm;
-
   font-size: 17px;
 
   line-height: 20px;
@@ -87,7 +67,7 @@ a:hover {
 #sidebar {
   position: absolute;
 
-  top: 40px;
+  top: 270px;
   left: 10px;
   width: 210px;
 
