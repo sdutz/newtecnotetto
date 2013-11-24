@@ -64,6 +64,10 @@ a:hover {
   list-style-type: square;
 }
 
+#main em {
+  margin-left : 4.3cm ;
+}
+
 #sidebar {
   position: absolute;
 
