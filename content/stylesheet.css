@@ -23,8 +23,12 @@ a:hover {
   color: #000;
 }
 
+img,iframe {
+    margin-top : 10px ;
+}
+
 .desc {
-    width: 200px;
+    width: 150px;
 }
 
 .desc:hover {
@@ -54,7 +58,7 @@ a:hover {
 #main p {
   margin: 20px 0;
   font-size: 17px;
-
+  text-align : center ;
   line-height: 20px;
 }
 
@@ -70,10 +74,6 @@ a:hover {
 
 #main ul li {
   list-style-type: square;
-}
-
-#main em {
-  margin-left : 4.3cm ;
 }
 
 #sidebar {
