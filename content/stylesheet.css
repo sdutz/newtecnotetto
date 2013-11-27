@@ -35,11 +35,36 @@ img,iframe {
     width: 600px;
 }
 
+
+.man {
+    margin-left: 150px;
+}
+
+#wrap {
+ width : 1000px ;
+ margin: 0 auto ;
+}
+
+#wrap2 {
+ width : 500px ;
+ margin: 0 auto ;
+}
+
+
+#head {
+  text-align : center ;
+}
+
+
+#body {
+  overflow : auto ;
+}
+
 #main {
-  position: absolute;
-  top: 200px;
-  left: 270px;
-  width: 500px;
+  position : absolute ;
+  text-align : center ;
+  margin-left : 250px ;
+  width : 500px ;
 }
 
 #main h1 {
@@ -48,18 +73,15 @@ img,iframe {
   text-align : center;
   line-height: 40px;
   letter-spacing: -1px;
+  text-align : center ;
 }
 
-#main h2 {
-  
-  text-align : center;
-}
 
 #main p {
   margin: 20px 0;
   font-size: 17px;
-  text-align : center ;
   line-height: 20px;
+  text-align : center ;
 }
 
 #main ul, #main ol {
@@ -77,17 +99,13 @@ img,iframe {
 }
 
 #sidebar {
-  position: absolute;
 
-  top: 270px;
-  left: 10px;
-  width: 210px;
-
-  padding: 15px 10px 0 0;
-
+  float : left ;
+  width : 210px ;
+  min-height:800px;
+  padding: 20px 20px 0 0;
   border-right: 1px solid #ccc;
-
-  text-align: left;
+  text-align: center;
 }
 
 #sidebar h2 {
