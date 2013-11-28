@@ -3,7 +3,7 @@
   padding: 0;
   font-family: Georgia, Palatino, Times, 'Times New Roman', sans-serif;
   font-style: italic ;
-  fond-color: #663300;
+  color: #291400;
 }
 
 body {
@@ -20,7 +20,7 @@ a:visited {
 }
 
 a:hover {
-  color: #000;
+  color: #555;
 }
 
 img,iframe {
@@ -64,7 +64,7 @@ img,iframe {
   position : absolute ;
   text-align : center ;
   margin-left : 250px ;
-  width : 500px ;
+  width : 600px ;
 }
 
 #main h1 {
@@ -99,7 +99,7 @@ img,iframe {
 }
 
 #sidebar {
-
+  position : fixed ;
   float : left ;
   width : 210px ;
   min-height:800px;
