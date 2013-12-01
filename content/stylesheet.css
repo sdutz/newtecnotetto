@@ -32,7 +32,7 @@ img,iframe {
 }
 
 .desc:hover {
-    width: 600px;
+    width: 500px;
 }
 
 
@@ -53,6 +53,7 @@ img,iframe {
 
 #head {
   text-align : center ;
+  position : relative ;
 }
 
 
@@ -65,6 +66,7 @@ img,iframe {
   text-align : center ;
   margin-left : 250px ;
   width : 600px ;
+  margin-top:-70px ;
 }
 
 #main h1 {
