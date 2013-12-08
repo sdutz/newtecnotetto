@@ -36,6 +36,10 @@ img,iframe {
 }
 
 
+.content {
+    margin: 0px;
+}
+
 .man {
     margin-left: 150px;
 }
